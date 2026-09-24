@@ -6,3 +6,12 @@ Work on that component. Do not change `src/app/app.module.ts`, `src/app/app.comp
 reintegration. Do not add dependencies.
 
 ## Scope
+- Component: `SidebarComponent`
+- Selector: `app-sidebar`
+- Files you may edit: `src/app/components/sidebar/sidebar.component` and the template and style files next to it.
+- Everything else in this workbench is scaffolding. Leave it alone.
+
+## Verify
+- `npx ng build` must succeed.
+- `npx ng test --watch=false --karma-config karma.headless.js` must stay green.
+- When you are done, list the files you changed.
